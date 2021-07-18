@@ -22,4 +22,7 @@ function rollTheDice () {
     document.querySelector("h1").textContent = "Draw!";
   }
 
+  var rollSound = new Audio("./sounds/dice-roll.mp3");
+  rollSound.play();
+
 }
