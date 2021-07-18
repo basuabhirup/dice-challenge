@@ -1,4 +1,7 @@
+// Adding a handler function that will be triggered against a "click" on the button
 document.querySelector(".btn").addEventListener("click",rollTheDice);
+
+
 
 // Defining a custom rollTheDice function:
 function rollTheDice () {
